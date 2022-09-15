@@ -79,8 +79,8 @@ def sample_model(input_im, model, sampler, precision, h, w, ddim_steps, n_sample
 
 def main(
     im_path="data/example_conditioning/superresolution/sample_0.jpg",
-    ckpt="models/ldm/stable-diffusion-v1/sd-clip-vit-l14-img-embed_ema_only.ckpt",
-    config="configs/stable-diffusion/sd-image-condition-finetune.yaml",
+    ckpt="/kaggle/working/stable-diffusion/models/ldm/stable-diffusion-v1/sd-clip-vit-l14-img-embed_ema_only.ckpt",
+    config="/kaggle/working/stable-diffusion/configs/stable-diffusion/sd-image-condition-finetune.yaml",
     outpath="im_variations",
     scale=3.0,
     h=512,
