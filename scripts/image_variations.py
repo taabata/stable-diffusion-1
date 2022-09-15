@@ -8,7 +8,6 @@ import torch
 from einops import rearrange
 from omegaconf import OmegaConf
 from PIL import Image
-from torch import autocast
 from torchvision import transforms
 import requests
 
