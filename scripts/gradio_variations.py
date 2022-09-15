@@ -10,7 +10,6 @@ from ldm.models.diffusion.ddim import DDIMSampler
 from ldm.models.diffusion.plms import PLMSSampler
 from omegaconf import OmegaConf
 from PIL import Image
-from torch import autocast
 from torchvision import transforms
 
 from scripts.image_variations import load_model_from_config
