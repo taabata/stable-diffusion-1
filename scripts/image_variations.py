@@ -78,7 +78,7 @@ def sample_model(input_im, model, sampler, precision, h, w, ddim_steps, n_sample
             return torch.clamp((x_samples_ddim + 1.0) / 2.0, min=0.0, max=1.0)
 
 def main(
-    im_path="data/example_conditioning/superresolution/sample_0.jpg",
+    im_path="/kaggle/working/stable-diffusion-1/data/example_conditioning/superresolution/sample_0.jpg",
     ckpt="/kaggle/working/stable-diffusion-1/models/ldm/stable-diffusion-v1/sd-clip-vit-l14-img-embed_ema_only.ckpt",
     config="/kaggle/working/stable-diffusion-1/configs/stable-diffusion/sd-image-condition-finetune.yaml",
     outpath="im_variations",
