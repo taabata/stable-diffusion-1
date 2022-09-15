@@ -100,8 +100,8 @@ More details on the method and training will come in a future blog post.
 
 def run_demo(
     device_idx=0,
-    ckpt="models/ldm/stable-diffusion-v1/sd-clip-vit-l14-img-embed_ema_only.ckpt",
-    config="configs/stable-diffusion/sd-image-condition-finetune.yaml",
+    ckpt="/kaggle/working/stable-diffusion/models/ldm/stable-diffusion-v1/sd-clip-vit-l14-img-embed_ema_only.ckpt",
+    config="/kaggle/working/stable-diffusion/configs/stable-diffusion/sd-image-condition-finetune.yaml",
     ):
 
     device = f"cuda:{device_idx}"
